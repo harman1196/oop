@@ -56,7 +56,12 @@ public class PrimitiveArrayExamples {
 		
 		// 8. Loop through every item in the array and output:
 		// HELLO _______ (where ___ is the name)
-		
+		names[1] = "Emad";
+		names[2] = "Ema";
+		names[3] = "Em";
+		for(int i =0;i<names.length;i++){
+			System.out.println(names[i]);
+		}
 		
 		// 9. Shift everyone by 1 position
 		// @TODO: Fill in code here
