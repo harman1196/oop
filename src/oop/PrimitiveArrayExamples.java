@@ -38,13 +38,21 @@ public class PrimitiveArrayExamples {
 		
 				
 		// 6. Add something to the end of the array
+		try{
 		names[7] = "Emad";
 		// @TODO:  Write code to output names[7] to screen
-		
-		
+		System.out.println(names[7]);
+		}
+		catch(Exception e){
+			System.out.println("anni dea mjak e");
+			System.out.println(e.toString());
+		}
 		// 7. Remove someone from the array
 		// @TODO: Fill in code here
-		
+		names[3]=null;
+		for(int i =0;i<names.length;i++){
+			System.out.println(names[i]);
+		}
 		
 		// 8. Loop through every item in the array and output:
 		// HELLO _______ (where ___ is the name)
